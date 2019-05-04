@@ -1,1 +1,17 @@
 // Mixins Here
+.flexbox-setup(@justify, @align, @direction) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direction;
+}
+.create-btn(@backgroundColor, @color, @width) {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: @backgroundColor;
+    width: @width;
+    color: @color;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
